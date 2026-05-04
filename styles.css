@@ -192,8 +192,7 @@ hr {
   width: 400px;
 
   color: #cbd5e1;
-  transition: 0.3s;
-
+  transition: 0.3s; 
   background: linear-gradient(
   180deg,
   #020617 0%,
@@ -250,7 +249,6 @@ hr {
   line-height: 1.5;
   color: #9ca3af;
   margin-top: 5px;
-
 }
 
 .aplicacoes-box:hover{
@@ -287,18 +285,150 @@ hr {
 }
 
 .beneficios-box img{
-  width: 70px; 
+  width: 100px; 
 }
 
 .beneficios-box h1{
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   margin-top: 5px;
 }
 
 .beneficios-box p{
   font-size: 13px;
-  line-height: 1.5;
+  line-height: 2.0;
   color: #9ca3af;
   margin-top: 5px;
+}
+
+.beneficios-ia{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.beneficios-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  background: #020617;
+  padding: 20px 30px;
+  width: 400px;
+  height: 250px;
+
+  color: #cbd5e1;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.linha {
+  margin-top: 60px;
+  width: 0.5px;
+  height: 150px;
+  background: linear-gradient(#00c6ff, #7b2ff7);
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Banner-future {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 50px 50px;
+  background: linear-gradient(
+  90deg,
+  #010314 0%,
+  #020a2e 30%,
+  #0b2a6b 70%,
+  #3b82f6 100%
+);
+
+  border-radius: 18px;
+  color: white;
+  width: 90%;
+  height: 40vh;
+  border: 1px solid blue;
+    
+}
+
+.Banner-texto {
+  max-width: 600px;
+}
+
+.Banner-texto h1 {
+  font-size: 35px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.Banner-texto p {
+  font-size: 15px;
+  color: #cbd5e1;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.btn-ia{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  background: linear-gradient(90deg, #00c6ff, #7b2ff7);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-ia:hover {
+  transform: translateY(-2px); 
+  box-shadow: 0 10px 25px rgba(123, 47, 247, 0.4); 
+}
+
+.Banner-img {
+  width: 500px;
+  max-width: 45%;
+  margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 60px;
+  background: #020617;
+  color: white;
+}
+
+.copyright {
+  flex: 1;               
+  text-align: center;    
+  font-size: 16px;
+  color: #cbd5e1;
+  margin: 0;
+}
+
+.footer-right {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-right img {
+  width: 24px;
 }
