@@ -81,16 +81,16 @@ A aplicação segue o padrão de **seções organizadas verticalmente**:
 ```bash
 One-Page/
 │
-├── index.html        # Estrutura principal da página
-├── style.css         # Estilização do projeto
-├── img/              # Imagens utilizadas
+├── index.html        
+├── style.css         
+├── img/              
 │   ├── logo.png
 │   ├── banner.png
 │   ├── insta.svg
 │   ├── linkedin.svg
 │   └── github.svg
 │
-└── README.md         # Documentação
+└── README.md        
 ```
 
 ---
